@@ -1,0 +1,32 @@
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
+
+.navigationLogo {
+  display: flex;
+  align-items: center;
+  color: white;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  z-index: 100;
+}
+
+.nav_container {
+  margin: 0 10px;
+}
+
+/* @media (max-width: 900px) {
+  .nav_item {
+    font-size: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav_item {
+    font-size: 14px;
+  }
+}
+ */

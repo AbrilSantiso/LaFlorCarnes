@@ -1,0 +1,89 @@
+.tituloProducto{
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+.lineaContainer{
+    margin-bottom: 30px;
+    width: 68%;
+    background-color: var(--orange);
+}
+.catalogoContainer{
+    background-color: var(--dark-brown);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.categoriasContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.categoria{
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: var(--white);
+    font-size: 22px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.categoria:hover{
+    color: var(--orange);
+    cursor: pointer;
+}
+.active{
+    color: var(--orange)
+}
+.active::after{
+    display: block !important;
+    left: 0 !important;
+    bottom: -1px !important;
+    width: 96% !important;
+    height: 3px !important;
+    background: linear-gradient(to right, var(--red) 0%, var(--orange) 100%) !important;
+    content: "" !important;
+    transition: width 0.2s !important;
+}
+
+.disabled::after{
+    display: block;
+    left: 0;
+    bottom: -1px;
+    width: 0;
+    height: 3px;
+    background: linear-gradient(to right, var(--red) 0%, var(--orange) 100%);
+    content: "";
+    transition: width 0.2s;
+}
+
+.productosContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    transition: all 0.5s linear;
+}
+.verMasBtn{
+    font-size: 17px;
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 12px;
+    background-color: var(--orange);
+    border-radius: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+    transition: all 0.5s linear
+}
+
+.verMasBtn:hover{
+    background-color: var(--red);
+}
+
+@media screen and (max-width: 600px) {
+    .categoriasContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   }

@@ -1,0 +1,14 @@
+@media screen and (max-width: 400px) {
+  #features {
+    padding: 20px;
+    width: 111%;
+  }
+  #about,
+  #services,
+  #contact,
+  #footer, #header, #socios-gastronomicos, #catalogo, #curriculum, footer {
+    width: 111%;
+  }
+
+
+}

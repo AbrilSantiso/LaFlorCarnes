@@ -1,0 +1,64 @@
+.header_video_box {
+  position: relative;
+}
+
+video{
+object-fit:cover;
+ height:unset !important
+}
+
+.caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 60px !important;
+  left: 30px;
+  letter-spacing: 2px;
+  padding: 1%;
+  position: absolute;
+  text-shadow: 1px 1px black;
+  top: 50%;
+}
+
+a.btn_header {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: var(--orange);
+  transition: all 0.5s linear;
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 25px;
+  position: absolute;
+  top: 75%;
+  left: calc(50% - 115px);
+  border: 0;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 20px;
+}
+
+a.btn_header:hover {
+  background-color: var(--red);
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  font-weight: 500;
+}
+
+a.btn_header:focus {
+  background-color: var(--orange);
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+  a.btn_header {
+    top: 75%;
+  }
+}
+
+@media screen and (max-width: 985px) {
+}

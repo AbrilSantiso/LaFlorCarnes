@@ -1,0 +1,218 @@
+[
+  {
+    "nombreCategoria": "Novillos",
+    "productos": [
+      {
+        "nombre": "Asado",
+        "foto": "https://i.imgur.com/uAP9gag.jpg",
+        "id": 1
+      },
+      {
+        "nombre": "Tapa de Asado",
+        "foto": "https://i.imgur.com/L3Zp86E.jpg",
+        "id": "tapadeasado"
+      },
+      {
+        "nombre": "Nalga",
+        "foto": "https://i.imgur.com/f2bGAhF.jpg",
+        "id": "nalga"
+      },
+      {
+        "nombre": "Tapa de Nalga",
+        "foto": "https://i.imgur.com/JIVjgZa.jpg",
+        "id": "tapaDenalga"
+      },
+      {
+        "nombre": "Colita de Cuadril",
+        "foto": "https://i.imgur.com/uVA9lyH.jpg",
+        "id": "colitacuadril"
+      },
+      {
+        "nombre": "Cuadril",
+        "foto": "https://i.imgur.com/4tzJKLE.jpg",
+        "id": "cuadril"
+      },
+      {
+        "nombre": "Matambre",
+        "foto": "https://i.imgur.com/rWp54U2.jpg",
+        "id": "matambrenovillo"
+      },
+      {
+        "nombre": "Entraña",
+        "foto": "https://i.imgur.com/rsOWXdg.jpg",
+        "id": "entraña"
+      },
+      {
+        "nombre": "Cuadrada",
+        "foto": "https://i.imgur.com/S3M2LCa.jpg",
+        "id": "Cuadrada"
+      },
+      {
+        "nombre": "Roast Beef",
+        "foto": "https://i.imgur.com/aaJzCMD.jpg",
+        "id": 2
+      },
+      {
+        "nombre": "Bola De Lomo",
+        "foto": "https://i.imgur.com/ravLBfe.jpg",
+        "id": 3
+      },
+      {
+        "nombre": "Picada Premium",
+        "foto": "https://i.imgur.com/bzKIEbH.jpg",
+        "id": 4
+      },
+      {
+        "nombre": "Milanesas De Carne",
+        "foto": "https://i.imgur.com/TT6OwY0.jpg",
+        "id": 5
+      },
+      {
+        "nombre": "Hamburguesas",
+        "foto": "https://i.imgur.com/CJV09t4.jpg",
+        "id": "hamburguesas"
+      },
+      {
+        "nombre": "Bife De Chorizo",
+        "foto": "https://i.imgur.com/S1TKDoI.jpg",
+        "id": 6
+      },
+      {
+        "nombre": "Bife Angosto",
+        "foto": "https://i.imgur.com/Hkvs2NO.jpg",
+        "id": "angosto"
+      },
+      {
+        "nombre": "Bife Ancho",
+        "foto": "https://i.imgur.com/0LL05ZZ.jpg",
+        "id": "ancho"
+      },
+      {
+        "nombre": "Ojo de bife",
+        "foto": "https://i.imgur.com/7KfaOlE.jpg",
+        "id": "ojodebife"
+      },
+      {
+        "nombre": "Vacio",
+        "foto": "https://i.imgur.com/Vvp2oJa.jpg",
+        "id": 7
+      },
+      {
+        "nombre": "Peceto",
+        "foto": "https://i.imgur.com/wzD8m7X.jpg",
+        "id": 8
+      },
+      {
+        "nombre": "Paleta",
+        "foto": "https://i.imgur.com/bjD6Uka.jpg",
+        "id": "paleta"
+      },
+      {
+        "nombre": "Tortuguita",
+        "foto": "https://i.imgur.com/gDeMfpz.jpg",
+        "id": "Tortuguita"
+      },
+      {
+        "nombre": "Chinchulin",
+        "foto": "https://i.imgur.com/QnFgqxk.jpg",
+        "id": "chinchulin"
+      },
+      {
+        "nombre": "Riñon",
+        "foto": "https://i.imgur.com/MEKNzmr.jpg",
+        "id": "riñon"
+      },
+      {
+        "nombre": "Morcilla",
+        "foto": "https://i.imgur.com/KhXjVlo.jpg",
+        "id": "morcilla"
+      },
+      {
+        "nombre": "Mondongo",
+        "foto": "https://i.imgur.com/MUt0z1b.png",
+        "id": "mondongo"
+      },
+      {
+        "nombre": "Rabo",
+        "foto": "https://i.imgur.com/AB5wRnC.jpg",
+        "id": "rabo"
+      },
+      {
+        "nombre": "Librillo",
+        "foto": "https://i.imgur.com/yPtYRCr.png",
+        "id": "librillo"
+      }
+    ]
+  },
+  {
+    "nombreCategoria": "Cerdos",
+    "productos": [
+      {
+        "nombre": "Carre de Cerdo",
+        "foto": "https://i.imgur.com/r9lq0iw.jpg",
+        "id": "carre"
+      },
+      {
+        "nombre": "Churrasquito de Cerdo",
+        "foto": "https://i.imgur.com/Psnqqpt.jpg",
+        "id": "churrasquito"
+      },
+      {
+        "nombre": "Bondiola de Cerdo",
+        "foto": "https://i.imgur.com/jFvjOMc.jpg",
+        "id": 3
+      },
+      {
+        "nombre": "Ribs de Cerdo",
+        "foto": "https://i.imgur.com/rZtxXzS.jpg",
+        "id": 4
+      },
+      {
+        "nombre": "Pechito de Cerdo",
+        "foto": "https://i.imgur.com/U3Ub7Rz.jpg",
+        "id": 5
+      },
+      {
+        "nombre": "Solomillo de Cerdo",
+        "foto": "https://i.imgur.com/rQFBrwe.jpg",
+        "id": 6
+      },
+      {
+        "nombre": "Lechón",
+        "foto": "https://i.imgur.com/VsOMWnK.jpg",
+        "id": "lechon"
+      }
+     
+    ]
+  },
+  {
+    "nombreCategoria": "Pollos",
+    "productos": [
+      {
+        "nombre": "Supremas",
+        "foto": "https://i.imgur.com/wnO0LWD.jpg",
+        "id": 1
+      },
+      {
+        "nombre": "Hamburguesas de Pollo",
+        "foto": "https://i.imgur.com/x2BsgIz.jpg",
+        "id": 2
+      },
+      {
+        "nombre": "Pata y Muslo",
+        "foto": "https://i.imgur.com/DwgeMgX.jpg",
+        "id": 3
+      },
+      {
+        "nombre": "Pollo de Granja Premium",
+        "foto": "https://i.imgur.com/IF8BMC8.jpg",
+        "id": 5
+      },
+      {
+        "nombre": "Milanesas de Pollo",
+        "foto": "https://i.imgur.com/uel8Xzq.jpg",
+        "id": "miladepollo"
+      }
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+.tituloSocios{
+    margin-top: 90px;
+    margin-bottom: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 50px;
+    background-color: var(--dark-brown);
+}
+.contenido{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.itemContenido{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imagenResto{
+    width: 90%;
+}
+
+.textoIntro{
+    color: var(--white);
+    font-size: 30px;
+    width: 80%;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.lineaContainer{
+    margin-bottom: 30px;
+    width: 68%;
+    background-color: var(--orange);
+}
+.nombre{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 25;
+    color: var(--white);
+}
+.pregunta{
+    font-weight: 600;
+    font-size: 20;
+    color: var(--orange);
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+.mensajeConsulta{
+    font-size: 17px;
+    color: var(--white);
+    text-transform: uppercase;
+    padding: 12px;
+    background-color: var(--orange);
+    border-radius: 25px;
+    font-weight: 500;
+    margin-top: 15px;
+    transition: all 0.5s linear
+}
+
+.mensajeConsulta:hover{
+    background-color: var(--red);
+}
+
+@media screen and (max-width: 2300px) {
+    .imagenResto{
+        max-height: 380px;
+    }
+   }
+
+@media screen and (max-width: 1120px) {
+    .contenido{
+        flex-direction: column;
+      }
+      .itemContenido{
+        width: 80%;
+    }
+   }
+
+@media screen and (max-width: 700px) {
+    .tituloSocios{
+        letter-spacing: 10px;
+        font-size: 23px;
+        text-align: center;
+        line-height: 30px;
+      }
+      .itemContenido{
+        width: 90%;
+        text-align: center;
+    }
+   }

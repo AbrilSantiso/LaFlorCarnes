@@ -1,0 +1,32 @@
+.productoContainer{
+    width: 22%;
+    background-color: var(--light-brown);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin: 20px 20px;
+}
+.imagenProducto{
+    width: 90%;
+    border-radius: 5px;
+}
+.nombreProducto{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(250, 240, 240);
+}
+
+@media screen and (max-width: 800px) {
+    .productoContainer{
+     width: 40%;
+    }
+ }
+
+@media screen and (max-width: 600px) {
+   .productoContainer{
+    width: 80%;
+   }
+}
