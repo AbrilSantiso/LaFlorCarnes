@@ -26,7 +26,7 @@ export const Header = (props) => {
           height="auto"
         />
         <a target="_blank" href="https://api.whatsapp.com/send?phone=+5491124161932&text=Hola, me gustaría hacer un pedido"        
-          className={`btn btn-lg page-scroll ${styles.btn_header}`}>        
+          className={`btn btn-lg page-scroll ${styles.btn_header}`} rel="noreferrer">        
           Hacé tu pedido
         </a>
       </div>

@@ -25,6 +25,7 @@ export const WholesalersSection = () => {
               href="https://api.whatsapp.com/send?phone=+5491122711058&text=Hola,%20quiero%20información%20sobre%20pedidos%20mayoristas"
               className={styles.mensajeConsulta}
               target="_blank"
+              rel="noreferrer"
             >
               Hacé click aquí
             </a>

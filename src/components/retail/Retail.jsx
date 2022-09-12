@@ -22,6 +22,7 @@ export const Retail = () => {
               href="https://api.whatsapp.com/send?phone=+5491122711058&text=Hola,%20quiero%20realizar%20un%20pedido"
               className={styles.mensajeConsulta}
               target="_blank"
+              rel="noreferrer"
             >
               Hacé tu pedido aquí
             </a>

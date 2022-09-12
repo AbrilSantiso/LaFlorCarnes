@@ -17,6 +17,7 @@ export const Contact = () => {
                   <a
                     target="_blank"
                     href="https://api.whatsapp.com/send?phone=+5491122711058&text=Hola, me gustaría hacer un pedido"
+                    rel="noreferrer"
                   >
                     <img
                       src="img/iconosSeccionContacto/whatsapp.png"
@@ -29,13 +30,15 @@ export const Contact = () => {
                     <a
                       target="_blank"
                       href="https://api.whatsapp.com/send?phone=+5491122711058&text=Hola, me gustaría hacer un pedido"
+                      rel="noreferrer"
                     >
                       1122711058
                     </a>
                   </p>
                 </div>
                 <div className="contact-container">
-                  <a target="_blank" href="tel:011-4941-6017">
+                  <a target="_blank" href="tel:011-4941-6017"
+                  rel="noreferrer">
                     <img
                       src="img/iconosSeccionContacto/llamada-telefonica.png"
                       alt="telefono"
@@ -45,12 +48,12 @@ export const Contact = () => {
                   </a>
                   <div className="contact-container-tel">
                     <p>
-                      <a target="_blank" href="tel:011-4941-6017">
+                      <a target="_blank" href="tel:011-4941-6017" rel="noreferrer">
                         4941-6017
                       </a>
                     </p>
                     <p>
-                      <a target="_blank" href="tel:011-4943-6937">
+                      <a target="_blank" href="tel:011-4943-6937" rel="noreferrer">
                         4943-6937
                       </a>
                     </p>
@@ -60,6 +63,7 @@ export const Contact = () => {
                   <a
                     target="_blank"
                     href="mailto:frigorifico@laflordelparque.com"
+                    rel="noreferrer"
                   >
                     <img
                       src="img/iconosSeccionContacto/gmail.png"
@@ -72,6 +76,7 @@ export const Contact = () => {
                     <a
                       target="_blank"
                       href="mailto:frigorifico@laflordelparque.com"
+                      rel="noreferrer"
                     >
                       frigorifico@laflordelparque.com
                     </a>
@@ -112,6 +117,7 @@ export const Contact = () => {
                   <a
                     target="_blank"
                     href="https://api.whatsapp.com/send?phone=+5491124161932&text=Hola, me gustaría hacer un pedido"
+                    rel="noreferrer"
                   >
                     <img
                       src="img/iconosSeccionContacto/whatsapp.png"
@@ -124,13 +130,14 @@ export const Contact = () => {
                     <a
                       target="_blank"
                       href="https://api.whatsapp.com/send?phone=+5491124161932&text=Hola, me gustaría hacer un pedido"
+                      rel="noreferrer"
                     >
                       1124161932
                     </a>
                   </p>
                 </div>
                 <div className="contact-container">
-                  <a target="_blank" href="tel:011-4308-5124">
+                  <a target="_blank" href="tel:011-4308-5124" rel="noreferrer">
                     <img
                       src="img/iconosSeccionContacto/llamada-telefonica.png"
                       alt="telefono"
@@ -139,7 +146,7 @@ export const Contact = () => {
                     />
                   </a>
                   <p>
-                    <a target="_blank" href="tel:011-4308-5124">
+                    <a target="_blank" href="tel:011-4308-5124" rel="noreferrer">
                       4308-5124
                     </a>
                   </p>
@@ -178,6 +185,7 @@ export const Contact = () => {
         <div className={styles.mapaContainer}>
           <iframe
             className={styles.mapa}
+            title="mapa"
             allowFullScreen={""}
             loading={"lazy"}
             src={
